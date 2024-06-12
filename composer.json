@@ -11,7 +11,7 @@
   "type": "flarum-extension",
   "license": "MIT",
   "require": {
-    "flarum/core": "^1.8"
+    "flarum/core": "*"
   },
   "authors": [
     {
@@ -37,5 +37,10 @@
     "flagrow": {
       "discuss": ""
     }
-  }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require-dev": {
+        "flarum/testing": "^1.0.0"
+    }
 }
